@@ -1,0 +1,145 @@
+html,body{
+    height: 100%;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+main div {
+    text-align: center;
+}
+
+main div img:hover {
+    transform: scale(1.05);
+}
+
+div img {
+    height: 400px;
+    width: 500px;
+    border-radius: 35px;
+    
+}
+
+body {
+    background-color: black;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+header h1 {
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    margin-top: 140px;
+}
+
+header {
+    background-image: url(image.jpeg);
+    height: 500px;
+    margin-bottom: 10px;
+}
+
+.text h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 13%;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+}
+
+div button {
+    color: black;
+    background-color: green;
+    cursor: pointer;
+}
+
+footer p {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+footer div {
+    text-align: center;
+}
+
+input {
+    height: 25px;
+    width: 500px;
+}
+
+button {
+    height: 10p;
+    width: 100px;
+}
+
+div p {
+    font-size: 50px;
+    color: white;
+    text-align: center;
+}
+
+div video {
+    height: 315;
+    width: 560;
+}
+
+.heading {
+    font-size: 30px;
+    color: white;
+}
+
+th,
+td {
+    border: 1px solid #444;
+    padding: 12px;
+    text-align: center;
+}
+
+table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    background: #222;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    color: white;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+main div img{
+    padding-top: 20px;
+    margin-left: 10px;
+}
+
+ol {
+    color: white;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.text p{
+    font-size: 25px;
+    color: white;
+}
+
